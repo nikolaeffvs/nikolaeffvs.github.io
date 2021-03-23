@@ -1,0 +1,19 @@
+body {
+            padding-top: 3.5rem;
+        }
+
+@media (min-width:576px) {
+  .container {
+       max-width: 800px;
+   }
+}
+
+@media (max-width:575px) {
+   .container {
+        max-width: 350px;
+    }
+}
+
+h6 {
+  font-size: 17px;
+}
