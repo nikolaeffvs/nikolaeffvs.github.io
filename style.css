@@ -23,6 +23,6 @@ h6 {
 	&__link {
 		position: absolute;
 		display: block;
-		top: -100px;
+		top: -200px;
 	}
 }
