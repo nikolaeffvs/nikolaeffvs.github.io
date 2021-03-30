@@ -17,12 +17,3 @@ body {
 h6 {
   font-size: 17px;
 }
-.ancor {
-	position: relative;
- 
-	&__link {
-		position: absolute;
-		display: block;
-		top: -200px;
-	}
-}
