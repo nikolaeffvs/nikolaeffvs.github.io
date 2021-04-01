@@ -16,6 +16,21 @@
     <main role="main">
         <div class="container" style="background: white; text-align: justify;">
             <div class="row">
+                <div class="progress">
+                    <script>!function(window) {
+                        var document = window.document;
+                        var pageProgressNode = document.querySelector('.progress');
+                        var windowScrollHeight = document.body.scrollHeight;
+                        var windowVisibleHeight = window.innerHeight;
+                      
+                        window.addEventListener('scroll', function() {
+                          var scrollPosition = (document.documentElement.scrollTop ? document.documentElement : document.body).scrollTop;
+                          var pageProgressWidth = Math.min(100, scrollPosition / (windowScrollHeight - windowVisibleHeight) * 100);
+                      
+                          pageProgressNode.style.width = pageProgressWidth + '%';
+                        });
+                      }(this);</script>
+                </div>
                 <div class="col-md-12" style="text-align: center; margin: 15px 0px 0px 0px;">
                     <div class="d-sm-none"><a href="index.html"><img src="images/slogo.png" height="50px">
                         </a>
