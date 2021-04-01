@@ -16,7 +16,7 @@ h6 {
 a, a:hover {
   color: #0066cc
 }
-.progress {
+#progress {
   left: 0;
   top: 0;
   width: 0;
