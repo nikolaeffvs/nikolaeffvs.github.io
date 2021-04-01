@@ -17,7 +17,7 @@
           var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
           var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
           var scrolled = (winScroll / height) * 100;
-          document.getElementById("progress").style.width = scrolled + "%";
+          document.getElementById("myBar").style.width = scrolled + "%";
         }
     </script>
 </head>
@@ -25,8 +25,12 @@
     <main role="main">
         <div class="container" style="background: white; text-align: justify;">
             <div class="row">
-                <div id="progress">
-                </div>
+                <div class="header">
+                    <h2>Scroll Indicator</h2>
+                    <div class="progress-container">
+                      <div class="progress-bar" id="myBar"></div>
+                    </div> 
+                  </div>
                 <div class="col-md-12" style="text-align: center; margin: 15px 0px 0px 0px;">
                     <div class="d-sm-none"><a href="index.html"><img src="images/slogo.png" height="50px">
                         </a>
