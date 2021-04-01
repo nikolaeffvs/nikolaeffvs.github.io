@@ -27,7 +27,7 @@ a, a:hover {
   background:  whitesmoke;
 }
 .progress-bar {
-  height: 3px;
+  height: 5px;
   background: #258745;
   width: 0%;
 }
