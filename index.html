@@ -28,8 +28,18 @@
 
   gtag('config', 'G-JH7WQJC1V1');
 </script>
+<script>
+function mydate(){const currentYear = new Date().getFullYear() 
+    if(currentYear == '2021'){
+      document.getElementById('period').innerHTML = '2021'
+      document.getElementById('period1').innerHTML = '2021'
+    } else {
+      document.getElementById('period').innerHTML = `2021-${currentYear}`
+      document.getElementById('period1').innerHTML = `2021-${currentYear}`
+    }}
+</script>
 </head>
-<body style="background: whitesmoke;">
+<body onload="mydate()" style="background: whitesmoke;">
     <div class="header">
         <div class="progress-container">
         <div class="progress-bar" id="myBar">
@@ -309,13 +319,8 @@
             <div class="col-md-6" style="margin: 15px 0px 00px 0px;">
                 <div class="d-none d-md-block">
                     <p>ООО ПППД | 
-                        <script>   const currentYear = new Date().getFullYear() 
-                            if(currentYear == 2021){
-                              document.write('2021')
-                            } else {
-                              document.write(`2021-${currentYear}`)
-                            }
-                        </script> г.
+                        <span id="period">
+                        </span> г.
                     </p>
                 </div>
             </div>
@@ -332,15 +337,9 @@
                 <div class="d-md-none">
                     <p>Разработка сайта 
                         <a href="https://mathsalon.ru" target="_blank">mathsalon.ru
-                        </a><br>
-                        ООО ПППД | 
-                        <script>   const currentYear = new Date().getFullYear() 
-                            if(currentYear == 2021){
-                              document.write('2021')
-                            } else {
-                              document.write(`2021-${currentYear}`)
-                            }
-                        </script> г.
+                        </a><br>ООО ПППД | 
+                        <span id="period1">
+                        </span> г.
                     </p>
                 </div>
             </div>
