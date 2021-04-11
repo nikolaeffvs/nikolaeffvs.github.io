@@ -1,1 +1,3 @@
+User-agent: *
+Disallow: 
 Sitemap: https://pppd.ooo/sitemap.xml
