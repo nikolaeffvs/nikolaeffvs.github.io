@@ -48,7 +48,7 @@ a, a:hover {
   margin-right: 10px;
   margin-left: 10px;
 }
-.margin {
+.container-margin {
   margin-right: 0%;
   margin-left: 0%;
   margin-top: 1%;
@@ -65,7 +65,7 @@ a, a:hover {
   margin-top: 2%;
   margin-bottom: 1%;
 }
-.logo-m {
+.slogo {
   height: 50px;
   margin-top: 4%;
   margin-bottom: 1%;
